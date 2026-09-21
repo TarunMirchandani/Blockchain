@@ -19,3 +19,14 @@ In traditional systems, power is **Centralized** (e.g., Meta, Google, Banks), cr
 * **Consensus Mechanisms:** Instead of a single admin approving a transaction, the network of global computers (Nodes) must reach an agreement (Consensus) using predefined mathematical rules.
 * **Economic Incentives:** Nodes are financially rewarded (via block rewards/crypto) to keep the network honest. Defrauding the network costs more than the potential reward.
 * **Censorship Resistance:** Since there is no central server, no single company or government can shut down the application or block a user arbitrarily.
+## Blockchain Structure
+
+A blockchain is structurally a distributed database that stores data in groups called **Blocks**. These blocks are linked together in a chronological order, forming a **Chain**.
+
+### Core Elements of a Block:
+* **Data:** The actual information being recorded (e.g., transaction details).
+* **Hash:** A unique cryptographic fingerprint of the entire block. If any data inside changes, the hash changes completely.
+* **Previous Hash:** This is the hash of the block before it. This links the blocks together. If a hacker alters an old block, the chain breaks instantly because the subsequent blocks will contain mismatching hashes.
+
+
+* **Genesis Block:** The very first block in a blockchain is called the Genesis Block (Block 0 or 1). Since it has no predecessor, its "Previous Hash" field is set to all zeros. It is hardcoded into the blockchain's software to initialize the network.
