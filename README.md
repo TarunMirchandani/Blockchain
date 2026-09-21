@@ -58,3 +58,16 @@ Storing large files directly on a blockchain (**On-Chain**) is highly expensive 
 * **Off-Chain Decentralized Storage:** Large data files—such as images for NFTs, user metadata, or frontend application files—are stored on decentralized storage networks like **IPFS** (InterPlanetary File System), **Arweave**, or **Filecoin**. 
 * **The Bridge:** The off-chain network generates a unique, tamper-proof cryptographic hash for the file, which is then stored **on-chain**. This ensures data integrity without overloading the blockchain.
 
+## Mining and Incentive Models
+
+Since blockchains are decentralized, they rely on global participants (Miners/Validators) to keep the network running securely. To motivate them, blockchain protocols use **Economic Incentive Models**.
+
+### 1. What is Mining?
+In Proof of Work (PoW) blockchains like Bitcoin, **Mining** is the process of verifying transactions and securing the network. Miners use high-powered computers to solve complex mathematical puzzles. The first miner to solve the puzzle gets the right to add the next block to the chain.
+
+### 2. How Miners are Rewarded:
+* **Block Rewards:** The protocol automatically creates and awards brand new cryptocurrency coins (e.g., new BTC) to the miner who successfully creates a valid block.
+* **Transaction Fees:** Miners also receive the processing fees attached to every transaction included inside that specific block.
+
+### 3. Game Theory & Security:
+The incentive model uses game theory to enforce honesty. If a miner tries to include a fraudulent transaction, the rest of the network will reject the block. The rogue miner loses their spent electricity and hardware costs without receiving any rewards, making honesty the most profitable strategy.
