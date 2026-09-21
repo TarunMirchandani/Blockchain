@@ -10,3 +10,12 @@ Traditional systems rely on a **Central Authority** (like banks or tech companie
 * **Immutability:** Once data or a transaction is written to the blockchain, it becomes permanent. No one (not even hackers or the developers) can alter or delete it.
 * **Transparency:** The ledger is public. While your personal identity remains private behind a cryptographic wallet address, anyone can audit the transactions. This eliminates fraud and hidden corruption.
 * **High Security & Uptime:** Because the data is copied across thousands of global computers (nodes), the network cannot be shut down or easily hacked by targeting a single server.
+
+## Decentralization & Trust
+
+In traditional systems, power is **Centralized** (e.g., Meta, Google, Banks), creating a single point of failure and censorship. Blockchain introduces **Decentralization**, which means shifting control and decision-making from a centralized entity to a distributed network.
+
+### How Trust Works Without a Central Boss:
+* **Consensus Mechanisms:** Instead of a single admin approving a transaction, the network of global computers (Nodes) must reach an agreement (Consensus) using predefined mathematical rules.
+* **Economic Incentives:** Nodes are financially rewarded (via block rewards/crypto) to keep the network honest. Defrauding the network costs more than the potential reward.
+* **Censorship Resistance:** Since there is no central server, no single company or government can shut down the application or block a user arbitrarily.
