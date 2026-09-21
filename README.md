@@ -30,3 +30,12 @@ A blockchain is structurally a distributed database that stores data in groups c
 
 
 * **Genesis Block:** The very first block in a blockchain is called the Genesis Block (Block 0 or 1). Since it has no predecessor, its "Previous Hash" field is set to all zeros. It is hardcoded into the blockchain's software to initialize the network.
+## Basic Blockchain Operations
+
+Blockchain operations follow a decentralized lifecycle to process data securely without central intervention. The standard process involves 5 steps:
+
+1. **Transaction Creation:** A user initiates a transaction and signs it using their cryptographic Private Key to prove ownership.
+2. **Broadcasting:** The signed transaction is broadcasted to a P2P network of nodes and enters a temporary waiting area called the **Mempool** (Memory Pool).
+3. **Verification:** Global nodes pick the transaction from the mempool and mathematically verify its validity (wallet balance, digital signatures).
+4. **Consensus & Block Bundling:** Verified transactions are bundled into a new block by validators/miners. The network uses a Consensus Protocol (e.g., PoW or PoS) to agree on the state of the new block.
+5. **Execution & Finality:** The new block is appended to the existing blockchain. All nodes update their ledgers, and the transaction is finalized irreversibly.
