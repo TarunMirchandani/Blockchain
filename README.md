@@ -131,3 +131,21 @@ A common misconception is that crypto wallets store cryptocurrencies. In reality
 * **Hot Wallets:** Connected to the internet (e.g., MetaMask, Trust Wallet). Highly convenient for daily trading but more vulnerable to software exploits or phishing.
 * **Cold Wallets:** Offline hardware devices (e.g., Ledger, Trezor). Extremely secure because the private keys never touch an internet-connected environment, isolating them from online hacks.
 
+
+
+## Cryptography
+
+Cryptography is the mathematical foundation that secures data on a blockchain network. It ensures privacy, data integrity, and authentication through encryption (locking data) and decryption (unlocking data).
+
+### The Two Main Types:
+
+* **1. Symmetric Cryptography (Secret Key):**
+  Uses a single, shared cryptographic key for both encryption and decryption. While fast and efficient for bulk data, it is risky for decentralized networks because if the single key is intercepted during transmission, the entire system is compromised.
+
+* **2. Asymmetric Cryptography (Public-Key Cryptography):**
+  The cornerstone of Web3 security. It utilizes a mathematically linked pair of keys:
+  * **Public Key:** Distributed openly to the network. Anyone can use it to encrypt a message or trace a destination wallet address.
+  * **Private Key:** Kept strictly secret by the owner. It is the only key capable of decrypting data locked by its corresponding public key, and it is used to generate unforgeable digital signatures to authorize transactions.
+
+
+  * *(Note: In Symmetric systems, the single key must be securely shared between the sender and receiver. If it is intercepted during sharing, the security is completely broken.)*
