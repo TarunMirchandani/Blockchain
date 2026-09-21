@@ -114,3 +114,20 @@ A cryptocurrency is a digital or virtual currency secured by cryptography, makin
 * **2. Tokens (Layer 2 / DApps):** 
   Tokens do not have their own native blockchain. Instead, they are built on top of an existing blockchain (like Ethereum) using Smart Contracts (e.g., the ERC-20 standard). They are primarily used for specific applications, utility, or governance voting.
   * *Examples:* **USDT** (Stablecoin), **LINK** (Chainlink), and **UNI** (Uniswap).
+ 
+
+
+  ## Cryptowallets
+
+A common misconception is that crypto wallets store cryptocurrencies. In reality, blockchains store the assets, and crypto wallets only store the **Cryptographic Keys** required to access and move those assets.
+
+### Core Components of a Wallet:
+
+* **Public Key (Wallet Address):** Publicly shareable identifier (like a bank account number or UPI ID) used to receive funds.
+* **Private Key (Digital Signature):** A secret cryptographic code used to sign transactions and authorize the movement of funds. It must never be shared, as anyone with access to it controls the assets.
+* **Seed Phrase (Mnemonic):** A sequence of 12 or 24 random words generated during wallet setup. It acts as a master backup key to mathematically regenerate all public and private keys if the wallet device is lost.
+
+### Types of Wallets:
+* **Hot Wallets:** Connected to the internet (e.g., MetaMask, Trust Wallet). Highly convenient for daily trading but more vulnerable to software exploits or phishing.
+* **Cold Wallets:** Offline hardware devices (e.g., Ledger, Trezor). Extremely secure because the private keys never touch an internet-connected environment, isolating them from online hacks.
+
