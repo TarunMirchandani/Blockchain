@@ -49,3 +49,12 @@ Blockchain technology extends far beyond cryptocurrencies like Bitcoin. It is ac
 * **Supply Chain Management:** Provides absolute traceability of goods from the manufacturer to the consumer, preventing counterfeiting and improving logistics transparency.
 * **Digital Identity & Ownership:** Enables users to have true ownership of their data, digital assets (NFTs), and Web3 identities without relying on centralized tech giants.
 * **Decentralized Autonomous Organizations (DAOs):** Introduces a new way to govern organizations where rules are embedded in code, and decisions are made democratically through token-based voting.
+
+  ## Blockchain Storage
+
+Storing large files directly on a blockchain (**On-Chain**) is highly expensive and slows down the network. To solve this, Web3 architecture splits data into two methods:
+
+* **On-Chain Storage:** Only critical, lightweight data is stored directly on the blockchain ledger. This includes transaction histories, wallet balances, smart contract bytecode, and cryptographic references (hashes).
+* **Off-Chain Decentralized Storage:** Large data files—such as images for NFTs, user metadata, or frontend application files—are stored on decentralized storage networks like **IPFS** (InterPlanetary File System), **Arweave**, or **Filecoin**. 
+* **The Bridge:** The off-chain network generates a unique, tamper-proof cryptographic hash for the file, which is then stored **on-chain**. This ensures data integrity without overloading the blockchain.
+
