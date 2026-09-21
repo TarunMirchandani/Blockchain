@@ -96,3 +96,21 @@ A **Fork** occurs when a blockchain's underlying protocol or software rules are 
 * **2. Soft Fork (Backward-Compatible):** 
   A gentle protocol upgrade where the new rules remain compatible with older software versions. Non-upgraded nodes can still see and validate blocks created under the new rules. The network remains on a single, unified chain.
   * *Example:* Bitcoin's **SegWit** upgrade which optimized transaction capacity without breaking the chain.
+
+
+
+
+
+## Cryptocurrencies
+
+A cryptocurrency is a digital or virtual currency secured by cryptography, making it nearly impossible to counterfeit or double-spend. In Web3, cryptocurrencies act as the economic engine or "fuel" for decentralized networks.
+
+### The Two Main Categories:
+
+* **1. Native Coins (Layer 1):** 
+  These are cryptocurrencies that belong to their own independent blockchain networks. They are used to pay for network transaction fees (Gas) and to reward miners/validators for securing the chain.
+  * *Examples:* **Bitcoin (BTC)** on Bitcoin network, **Ether (ETH)** on Ethereum network, and **Solana (SOL)** on Solana network.
+
+* **2. Tokens (Layer 2 / DApps):** 
+  Tokens do not have their own native blockchain. Instead, they are built on top of an existing blockchain (like Ethereum) using Smart Contracts (e.g., the ERC-20 standard). They are primarily used for specific applications, utility, or governance voting.
+  * *Examples:* **USDT** (Stablecoin), **LINK** (Chainlink), and **UNI** (Uniswap).
