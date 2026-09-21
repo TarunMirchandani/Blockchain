@@ -71,3 +71,13 @@ In Proof of Work (PoW) blockchains like Bitcoin, **Mining** is the process of ve
 
 ### 3. Game Theory & Security:
 The incentive model uses game theory to enforce honesty. If a miner tries to include a fraudulent transaction, the rest of the network will reject the block. The rogue miner loses their spent electricity and hardware costs without receiving any rewards, making honesty the most profitable strategy.
+
+
+## Decentralization vs Trust
+
+In traditional systems, trust is **Centralized**. Users must implicitly trust third-party intermediaries like banks, governments, or tech corporations to secure their data and assets. Blockchain replaces this with a **Trustless Paradigm**.
+
+### The Shift to "Trustless" Architecture:
+* **Trust in Math, Not People:** A "trustless" network doesn't mean trust is absent; it means users do not need to rely on the integrity of a human intermediary. Instead, trust is mathematically enforced by open-source code and cryptography.
+* **Don't Trust, Verify:** Every node on the network independently validates transactions based on consensus rules rather than accepting data from a centralized server.
+* **Game Theory Alignment:** The system aligns economic self-interest with network security. Honest participants are financially rewarded, while malicious actors face severe financial penalties (lost electricity/hardware costs), ensuring systemic integrity without a central authority.
