@@ -81,3 +81,18 @@ In traditional systems, trust is **Centralized**. Users must implicitly trust th
 * **Trust in Math, Not People:** A "trustless" network doesn't mean trust is absent; it means users do not need to rely on the integrity of a human intermediary. Instead, trust is mathematically enforced by open-source code and cryptography.
 * **Don't Trust, Verify:** Every node on the network independently validates transactions based on consensus rules rather than accepting data from a centralized server.
 * **Game Theory Alignment:** The system aligns economic self-interest with network security. Honest participants are financially rewarded, while malicious actors face severe financial penalties (lost electricity/hardware costs), ensuring systemic integrity without a central authority.
+
+
+## Blockchain Forking
+
+A **Fork** occurs when a blockchain's underlying protocol or software rules are modified, causing a split or a divergence in the network's history. Since there is no central boss, forks happen when developers and nodes disagree on software upgrades.
+
+### Types of Blockchain Forks:
+
+* **1. Hard Fork (Backward-Incompatible):** 
+  A major software upgrade that introduces new, non-compatible rules. Nodes that do not upgrade will follow the old chain, while upgraded nodes follow the new chain. This permanently splits the blockchain into two separate networks with distinct cryptocurrencies.
+  * *Example:* The split of Bitcoin into **Bitcoin (BTC)** and **Bitcoin Cash (BCH)** in 2017.
+
+* **2. Soft Fork (Backward-Compatible):** 
+  A gentle protocol upgrade where the new rules remain compatible with older software versions. Non-upgraded nodes can still see and validate blocks created under the new rules. The network remains on a single, unified chain.
+  * *Example:* Bitcoin's **SegWit** upgrade which optimized transaction capacity without breaking the chain.
