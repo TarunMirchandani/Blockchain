@@ -149,3 +149,18 @@ Cryptography is the mathematical foundation that secures data on a blockchain ne
 
 
   * *(Note: In Symmetric systems, the single key must be securely shared between the sender and receiver. If it is intercepted during sharing, the security is completely broken.)*
+
+
+## Consensus Protocols
+
+A **Consensus Protocol** is a core algorithmic mechanism that allows a decentralized network of independent nodes to agree on the true state of the ledger without needing a central authority. It prevents double-spending and ensures all copies of the blockchain remain identical globally.
+
+### The Two Primary Consensus Mechanisms:
+
+* **1. Proof of Work (PoW):**
+  Nodes (Miners) compete against each other to solve intensive cryptographic math puzzles. The first to solve it wins the right to add the block and claim the reward. While extremely secure, it requires massive amounts of computational power and electricity.
+  * *Example:* **Bitcoin** network.
+
+* **2. Proof of Stake (PoS):**
+  Replaces computational competition with financial commitment. Nodes (Validators) lock up a specific amount of the network's native cryptocurrency (Staking) to earn the chance of being selected to validate the next block. It is highly energy-efficient and scalable.
+  * *Example:* **Ethereum** network.
