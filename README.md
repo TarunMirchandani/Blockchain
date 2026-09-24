@@ -164,3 +164,13 @@ A **Consensus Protocol** is a core algorithmic mechanism that allows a decentral
 * **2. Proof of Stake (PoS):**
   Replaces computational competition with financial commitment. Nodes (Validators) lock up a specific amount of the network's native cryptocurrency (Staking) to earn the chance of being selected to validate the next block. It is highly energy-efficient and scalable.
   * *Example:* **Ethereum** network.
+
+
+## Blockchain Interoperability
+
+**Blockchain Interoperability** refers to the ability of different blockchain networks to communicate, share data, and transfer value (like cryptocurrencies or tokens) smoothly with one another without needing a centralized exchange.
+
+### The Problem and Solution:
+* **The Silo Problem:** By default, blockchains are isolated networks. Bitcoin cannot naturally read data from Ethereum, and vice versa.
+* **Cross-Chain Bridges:** Interoperability is achieved through decentralized protocols and "Bridges." A bridge locks an asset on its native chain (e.g., BTC) and mints a mirrored representation (e.g., Wrapped BTC or WBTC) on the target chain (e.g., Ethereum), allowing assets to cross over safely.
+* **Why it Matters:** Interoperability is crucial for building a unified Web3 ecosystem where decentralized applications (dApps) can leverage the unique strengths of multiple blockchains simultaneously.
