@@ -210,3 +210,15 @@ These networks use entirely different virtual machines (like Solana VM or TON Vi
 ### 3. Layer 2 (L2) Blockchains
 Layer 2 protocols are built on top of a Layer 1 blockchain (like Ethereum) to solve its scalability issues (high fees and slow speed). They process transactions off-chain in bundles and settle the final state back on Layer 1.
 * **Core Networks:** Arbitrum and Optimism.
+
+
+
+## Oracles & Hybrid Smart Contracts
+
+Blockchains are deterministic systems, meaning they are completely isolated from the outside world and cannot natively fetch real-world data (like stock prices, weather, or sports scores). This limitation is known as **The Oracle Problem**.
+
+### The Solution: Blockchain Oracles
+An **Oracle** acts as a secure bridge that fetches external, real-world data and feeds it into smart contracts on the blockchain.
+
+* **Chainlink & Oracle Networks:** To maintain decentralization, we use Decentralized Oracle Networks (DONs) like **Chainlink**. Instead of relying on a single API, Chainlink aggregates data from multiple independent nodes to ensure accuracy and prevent tampering.
+* **Hybrid Smart Contracts:** These are next-generation smart contracts that combine on-chain code execution with off-chain data and computation provided by decentralized oracles. This enables powerful real-world use cases like decentralized insurance, automated asset management, and dynamic NFTs.
