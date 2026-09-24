@@ -190,3 +190,23 @@ Solana is optimized for scale, offering sub-second transaction finality and ultr
 TON was originally designed by the creators of Telegram to scale for billions of global users. It focuses on infinite scalability and deep integration with social applications.
 * **Core Technology:** Implements **Dynamic Sharding**, meaning the blockchain can split and merge its databases dynamically to handle sudden spikes in network traffic without slowing down.
 * **Primary Language:** **FunC** / **Tact** (running on the TON Virtual Machine).
+
+
+
+## The Blockchain Ecosystem (Layer 1 & Layer 2)
+
+To build decentralized applications (dApps), a developer must understand the different blockchain environments and execution environments available in the industry today.
+
+### 1. EVM-Based Blockchains (Ethereum Virtual Machine)
+The EVM acts as a global virtual computer that executes smart contracts. Blockchains that are EVM-compatible share the same execution environment, meaning code written for Ethereum can be deployed seamlessly across all of them.
+* **Core Networks:** Ethereum, Polygon, Binance Smart Chain (BSC), Avalanche, and Fantom.
+* **Primary Language:** **Solidity**.
+
+### 2. Non-EVM & TVM Blockchains
+These networks use entirely different virtual machines (like Solana VM or TON Virtual Machine) designed for extreme speed and ultra-low transaction costs. They do not support Solidity directly.
+* **Core Networks:** Solana and TON (Telegram Open Network).
+* **Primary Language:** **Rust**.
+
+### 3. Layer 2 (L2) Blockchains
+Layer 2 protocols are built on top of a Layer 1 blockchain (like Ethereum) to solve its scalability issues (high fees and slow speed). They process transactions off-chain in bundles and settle the final state back on Layer 1.
+* **Core Networks:** Arbitrum and Optimism.
