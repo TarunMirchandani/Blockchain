@@ -285,3 +285,5 @@ Unlike traditional web development where bugs can be patched via hotfixes, **sma
 | **Fuzz Testing** | Inbuilt (Automatically injects random data to break your code). | Requires external plugins or third-party packages. |
 | **Code Coverage Tool** | Native integration via `forge coverage` command. | Requires the `solidity-coverage` npm package dependency. |
 | **Advanced Tools** | Native gas reports, stack traces, and debugger flags. | Relies on `hardhat-gas-reporter` and console.log debugging. |
+
+  * *(Note: In my case i will use solidity. You can use rust or any other langauage you want .)*
